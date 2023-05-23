@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
+@tailwind utilitie;
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -10,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 255,255,256;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -18,10 +17,152 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:  #FFFAF4;
+}
+
+.center{
+text-align: center;
+width: auto;
+height:65px;
+left: 0px;
+top: 0px;
+background: #2eb8ea;
+}
+.center li{
+  left: 70px;
+  top: 18px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.center ul img{
+position: absolute;
+width: 128.84px;
+height: 31px;
+left: 70px;
+top: 18px;
+}
+/* home backround */
+
+.home1{
+width: 1280px;
+height: 571px;
+left: 0px;
+top: 0px;
+  background: url("../Asset/img/homebackround.png");
+}
+.home2 h3{
+  position: absolute;
+width: 355px;
+height: 275px;
+left: 64px;
+top: 148px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 100.69%;
+align-items: center;
+display: flex;
+align-items: center;
+}
+.lang{
+  text-align: end;
+  background-color: rgb(169, 169, 169, 0.65);
+  border-width: medium;
+}
+
+.centext{
+  text-align: center;
+  left: 70px;
+  top: 18px;
+  font-size: 50px;
+  padding: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  color: black;
+  font-size: 30.5px;
+  line-height: 36px;
+
+}
+
+  .card {
+    position: center;
+    display: inline-block;
+    width: 180px;
+    height: 141px;
+    background: #FBFF91;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    filter: blur(0.5px);
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: auto;
+}
+.card img{
+ position: relative;
+  width: 40px;
+  height: 35px;
+  
+}
+.card h5{
+  color: black;
+}
+
+.media h2{
+  text-align: center;
+left: 70px;
+top: 30px;
+font-size: 50px;
+padding: 20px;
+font-family: 'Roboto';
+font-style: normal;
+color: black;
+font-size: 30.5px;
+line-height: 45px;
+}
+.mlogo{
+ align-content: center;
+ width: 180px;
+ height: 141px;
+ left: 955px;
+ top: 707px;
+ margin: 10px;
+ display: inline-block;
+
+}
+.mlogo img{
+  width: 170px;
+  height: 60px;
+}
+.rectangle{
+  width: 700px;
+  height: 150px;
+  color: black;
+  margin-left: 25%;
+  background-color:#D9D9D9;
+  padding-left: 2px;
+}
+
+.ptext{
+  color: black;
+}
+.testmonial{
+  width: 176px;
+  height: 36px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30.5px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+
+}
+.testmonial h1{
+  text-align: center;
 }
